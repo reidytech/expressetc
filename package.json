@@ -1,0 +1,28 @@
+{
+  "name": "expressetc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/nodemon ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reidytech/expressetc.git"
+  },
+  "keywords": [],
+  "author": "Chris Reidy <reidy.data@gmail.com> (http://qigone.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reidytech/expressetc/issues"
+  },
+  "homepage": "https://github.com/reidytech/expressetc#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
